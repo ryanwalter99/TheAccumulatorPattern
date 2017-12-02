@@ -8,9 +8,9 @@ A subsequent module lets you practice the ACCUMULATOR pattern in another classic
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
          their colleagues and Ryan Walter.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+"""  # Done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
-
+import math
 # ----------------------------------------------------------------------
 # Students: As you work each of these problems, ask yourself:
 #   1. Do I need a loop?
@@ -110,7 +110,9 @@ def sum_more_cosines(m, n):
 
     total = 0
     for k in range(n):
-        total = total +(math.cos(k))
+        total = total + (math.cos(k))
+
+    return total
 
 
 def run_test_count_sines_from():
